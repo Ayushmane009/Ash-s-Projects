@@ -1,0 +1,813 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FCED6055-62BC-4EEE-981A-F3B43D53B3B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DentalClinicMS.main</StartupObject>
+    <RootNamespace>DentalClinicMS</RootNamespace>
+    <AssemblyName>DentalClinicMS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DentalClinicMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DentalClinicMS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSet1.vb">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet7.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\calender.Designer.vb">
+      <DependentUpon>calender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\calender.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Medicine.Designer.vb">
+      <DependentUpon>Medicine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Medicine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\All Bill.Designer.vb">
+      <DependentUpon>All Bill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\All Bill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\billallrpt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>billallrpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\BillReport.Designer.vb">
+      <DependentUpon>BillReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\BillReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\billrpt.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>billrpt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\casedatewise.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>casedatewise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\DCMDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\DoctorSpacilityReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DoctorSpacilityReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\DoctorSpacility.Designer.vb">
+      <DependentUpon>DoctorSpacility.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\DoctorSpacility.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\patientAgeWiseReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>patientAgeWiseReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\PatientReportGenderWise.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PatientReportGenderWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\prescription.Designer.vb">
+      <DependentUpon>prescription.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\prescription.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\prescriptionrep.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>prescriptionrep.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\TreatmentRep.Designer.vb">
+      <DependentUpon>TreatmentRep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\TreatmentRep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\TreatmentRepCasepaper.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TreatmentRepCasepaper.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\TreatmentRepDoctor.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TreatmentRepDoctor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\TreatmentReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TreatmentReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\TreatmentRepTreatmentWise.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TreatmentRepTreatmentWise.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TRANSACTION\Bill.Designer.vb">
+      <DependentUpon>Bill.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRANSACTION\Bill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRANSACTION\casepaperdetails.Designer.vb">
+      <DependentUpon>casepaperdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRANSACTION\casepaperdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TRANSACTION\casepaperheader.Designer.vb">
+      <DependentUpon>casepaperheader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRANSACTION\casepaperheader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Casepaper.Designer.vb">
+      <DependentUpon>Casepaper.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Casepaper.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\ChangePassword.Designer.vb">
+      <DependentUpon>ChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\ChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Class1.vb" />
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DCMDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DCMDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Dcotordetails.Designer.vb">
+      <DependentUpon>Dcotordetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Dcotordetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="docdataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>docdataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Master\DoctorType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\DoctorType.Designer.vb">
+      <DependentUpon>DoctorType.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Employdetails.Designer.vb">
+      <DependentUpon>Employdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Employdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="TRANSACTION\prescriptiondetails.Designer.vb">
+      <DependentUpon>prescriptiondetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TRANSACTION\prescriptiondetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\All doctor report.Designer.vb">
+      <DependentUpon>All doctor report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\All doctor report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\All doctor.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>All doctor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\All_PatientReport.Designer.vb">
+      <DependentUpon>All_PatientReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\All_PatientReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Patientdetails.Designer.vb">
+      <DependentUpon>Patientdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Patientdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\Allpatient report.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Allpatient report.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Report\CaseReportDate.Designer.vb">
+      <DependentUpon>CaseReportDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\CaseReportDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\PatientAgeReport.Designer.vb">
+      <DependentUpon>PatientAgeReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PatientAgeReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\PatientReportGender.Designer.vb">
+      <DependentUpon>PatientReportGender.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report\PatientReportGender.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Treatmentdetails.Designer.vb">
+      <DependentUpon>Treatmentdetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Treatmentdetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\Treatmentheader.Designer.vb">
+      <DependentUpon>Treatmentheader.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Treatmentheader.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\calender.resx">
+      <DependentUpon>calender.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Medicine.resx">
+      <DependentUpon>Medicine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\All Bill.resx">
+      <DependentUpon>All Bill.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\billallrpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>billallrpt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\BillReport.resx">
+      <DependentUpon>BillReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\billrpt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>billrpt.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\casedatewise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>casedatewise.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\DoctorSpacilityReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DoctorSpacilityReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\DoctorSpacility.resx">
+      <DependentUpon>DoctorSpacility.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\patientAgeWiseReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>patientAgeWiseReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PatientReportGenderWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PatientReportGenderWise.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\prescription.resx">
+      <DependentUpon>prescription.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\prescriptionrep.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>prescriptionrep.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\TreatmentRep.resx">
+      <DependentUpon>TreatmentRep.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\TreatmentRepCasepaper.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TreatmentRepCasepaper.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\TreatmentRepDoctor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TreatmentRepDoctor.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\TreatmentReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TreatmentReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\TreatmentRepTreatmentWise.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TreatmentRepTreatmentWise.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRANSACTION\Bill.resx">
+      <DependentUpon>Bill.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRANSACTION\casepaperdetails.resx">
+      <DependentUpon>casepaperdetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRANSACTION\casepaperheader.resx">
+      <DependentUpon>casepaperheader.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Casepaper.resx">
+      <DependentUpon>Casepaper.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\ChangePassword.resx">
+      <DependentUpon>ChangePassword.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Dcotordetails.resx">
+      <DependentUpon>Dcotordetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\DoctorType.resx">
+      <DependentUpon>DoctorType.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Employdetails.resx">
+      <DependentUpon>Employdetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TRANSACTION\prescriptiondetails.resx">
+      <DependentUpon>prescriptiondetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\All doctor report.resx">
+      <DependentUpon>All doctor report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\All doctor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>All doctor.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\All_PatientReport.resx">
+      <DependentUpon>All_PatientReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Patientdetails.resx">
+      <DependentUpon>Patientdetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\Allpatient report.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Allpatient report.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\CaseReportDate.resx">
+      <DependentUpon>CaseReportDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PatientAgeReport.resx">
+      <DependentUpon>PatientAgeReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report\PatientReportGender.resx">
+      <DependentUpon>PatientReportGender.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Treatmentdetails.resx">
+      <DependentUpon>Treatmentdetails.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\Treatmentheader.resx">
+      <DependentUpon>Treatmentheader.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet.xsc">
+      <DependentUpon>DCMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet.xss">
+      <DependentUpon>DCMDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DCMDataSet1.xsc">
+      <DependentUpon>DCMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Report\DCMDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Report\DCMDataSet1.xss">
+      <DependentUpon>DCMDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="docdataset.xsc">
+      <DependentUpon>docdataset.xsd</DependentUpon>
+    </None>
+    <None Include="docdataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>docdataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="docdataset.xss">
+      <DependentUpon>docdataset.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DCM.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DCM_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>DCM.mdf</DependentUpon>
+    </Content>
+    <None Include="DCMDataSet7.xsc">
+      <DependentUpon>DCMDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet7.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet7.xss">
+      <DependentUpon>DCMDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet8.xsc">
+      <DependentUpon>DCMDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet8.xss">
+      <DependentUpon>DCMDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\report1.png" />
+    <None Include="Resources\118-5123.png" />
+    <None Include="Resources\118-5122.png" />
+    <None Include="Resources\118-5121.png" />
+    <None Include="Resources\118-512.png" />
+    <None Include="Resources\3985a1c647252a93eb9ea3b66e20992c %281%29.jpg" />
+    <None Include="Resources\181-512.png" />
+    <None Include="Resources\2521_-_Hospital_Reception-512 %281%29.png" />
+    <None Include="Resources\People-Doctor-Male-icon.png" />
+    <None Include="Resources\1428136341.png" />
+    <None Include="DCMDataSet2.xsc">
+      <DependentUpon>DCMDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet2.xss">
+      <DependentUpon>DCMDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet3.xsc">
+      <DependentUpon>DCMDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet3.xss">
+      <DependentUpon>DCMDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet4.xsc">
+      <DependentUpon>DCMDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet4.xss">
+      <DependentUpon>DCMDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet5.xsc">
+      <DependentUpon>DCMDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet5.xss">
+      <DependentUpon>DCMDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet6.xsc">
+      <DependentUpon>DCMDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DCMDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DCMDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DCMDataSet6.xss">
+      <DependentUpon>DCMDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\images-18.jpg" />
+    <None Include="Resources\utility.png" />
+    <None Include="Resources\report.png" />
+    <None Include="Resources\casepaper.jpg" />
+    <None Include="Resources\treatment.jpg" />
+    <None Include="Resources\emp.png" />
+    <None Include="Resources\doctor.png" />
+    <None Include="Resources\patient1.png" />
+    <None Include="Resources\logo1.png" />
+    <None Include="Resources\patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.9.2">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2005 Express Edition SP2 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

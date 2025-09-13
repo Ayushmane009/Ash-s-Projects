@@ -1,0 +1,992 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DentalClinicMS
+</name>
+</assembly>
+<members>
+<member name="P:DentalClinicMS.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._118_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._118_5121">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._118_5122">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._118_5123">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._1428136341">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._181_512">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._2521___Hospital_Reception_512__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._360_F_360694586_cZwzYwIJL7tRdsdEJBvF3BdMIrYDUBLw">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources._3985a1c647252a93eb9ea3b66e20992c__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.casepaper">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.doctor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.emp">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.images_18">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.logo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.patient">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.patient1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.People_Doctor_Male_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.report">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.report1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.treatment">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DentalClinicMS.My.Resources.Resources.utility">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:DentalClinicMS.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet.DoctordetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet.DoctordetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet.DoctordetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSetTableAdapters.DoctordetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8.PatientdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8.PatientdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8.PatientdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8TableAdapters.PatientdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2.DoctordetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2.DoctordetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2.DoctordetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2TableAdapters.DoctordetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5.TreatmentheaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5.TreatmentheaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5.TreatmentheaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5TableAdapters.TreatmentheaderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet5,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet5,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet5)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet5TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.BilltableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.CasepaperdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.CasepaperheaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.DoctordetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.DoctortypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.EmployedetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.PatientdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentheaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.patientcaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentReportViewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.billviewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.prescriptionviewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.Patientdetails1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.BilltableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.CasepaperdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.CasepaperheaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.DoctordetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.DoctortypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.EmployedetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.PatientdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentheaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.patientcaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentReportViewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.billviewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.prescriptionviewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.Patientdetails1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.BilltableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.CasepaperdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.CasepaperheaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.DoctordetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.DoctortypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.EmployedetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.PatientdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentheaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.patientcaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.TreatmentReportViewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.billviewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.prescriptionviewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1.Patientdetails1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.BilltableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.CasepaperdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.CasepaperheaderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.DoctordetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.DoctortypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.EmployedetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.PatientdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.TreatmentdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.TreatmentheaderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.patientcaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.TreatmentReportViewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.billviewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.prescriptionviewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.Patientdetails1TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1.PatientdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1.PatientdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1.PatientdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1TableAdapters.PatientdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4.CasepaperheaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4.CasepaperheaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4.CasepaperheaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4TableAdapters.CasepaperheaderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7.CasepaperheaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7.CasepaperheaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7.CasepaperheaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7TableAdapters.CasepaperheaderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet7,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet7,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet7)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet7TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.docdataset.DoctordetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.docdataset.DoctordetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.docdataset.DoctordetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.docdataset">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.docdatasetTableAdapters.DoctordetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.docdataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.docdataset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.docdataset,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.docdataset)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.docdatasetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3.DoctordetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3.DoctordetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3.DoctordetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3TableAdapters.DoctordetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6.CasepaperheaderDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6.CasepaperheaderRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6.CasepaperheaderRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6TableAdapters.CasepaperheaderTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9.prescriptiondetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9.prescriptiondetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9.prescriptiondetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9TableAdapters.prescriptiondetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet9)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet9TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10.PatientdetailsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10.PatientdetailsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10.PatientdetailsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10TableAdapters.PatientdetailsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager.UpdateUpdatedRows(DentalClinicMS.DCMDataSet10,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager.UpdateInsertedRows(DentalClinicMS.DCMDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager.UpdateDeletedRows(DentalClinicMS.DCMDataSet10,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager.UpdateAll(DentalClinicMS.DCMDataSet10)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DentalClinicMS.DCMDataSet10TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
